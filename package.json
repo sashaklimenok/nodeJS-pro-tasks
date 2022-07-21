@@ -1,0 +1,29 @@
+{
+  "name": "nodejs-pro-tasks",
+  "version": "1.0.0",
+  "description": "1. Run REPL mode and split a word 'node' after that reverse the word to edon via reduce method.   >Solution   ```   (node.split('').reduce((prev, curr, index, arr) => prev + arr[arr.length - index - 1], '' ))   ``` 2. Make a calculator 3. Make a calculator which works with EventEmmiter",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./build/index.js",
+    "tsc:init": "tsc --init",
+    "build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sashaklimenok/nodeJS-pro-tasks.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sashaklimenok/nodeJS-pro-tasks/issues"
+  },
+  "homepage": "https://github.com/sashaklimenok/nodeJS-pro-tasks#readme",
+  "devDependencies": {
+    "@types/node": "^18.0.6",
+    "typescript": "^4.7.4"
+  },
+  "dependencies": {
+    "prompts": "^2.4.2"
+  }
+}
