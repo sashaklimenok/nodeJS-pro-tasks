@@ -1,6 +1,7 @@
-import EventEmitter from "events";
-import { App } from "./step-3/app";
+import { App } from "./step-4/App";
+import { Timer } from "./step-4/Timer/Timer";
+import { TimerObserver } from "./step-4/TimerObserver/TimerObserver";
 
-const app = new App(new EventEmitter());
+const app = new App(new Timer(), new TimerObserver());
 
-app.run();
+app.init();
