@@ -15,5 +15,6 @@
 ## Step 4
 
 1. Implement a Timer app
-   > The app was implemented via Observer pattern.
+   > The app was implemented via Observer pattern. 
+   
    > When the time of the timer is up all subscribes wil be notified with timer state
