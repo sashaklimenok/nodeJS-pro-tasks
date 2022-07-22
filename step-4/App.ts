@@ -12,6 +12,6 @@ export class App {
 
   init() {
     this.timer.subscribe(this.timerObserver);
-    this.timer.setAlarm(5000);
+    this.timer.setAlarm(10);
   }
 }
